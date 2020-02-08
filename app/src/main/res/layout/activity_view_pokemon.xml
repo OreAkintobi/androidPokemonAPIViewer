@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ViewPokemonActivity"
+    android:background="#ffd54f">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_pokemon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image_back_default"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:layout_marginEnd="8dp"-->
+    <!--        android:src="@drawable/ic_launcher_background"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/guideline"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image_front_shiny"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:baselineAlignBottom="false"-->
+    <!--        android:src="@drawable/ic_launcher_background"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/image_back_default"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/guideline"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/image_back_default" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image_back_shiny"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:src="@drawable/ic_launcher_background"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/image_front_shiny"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/image_front_shiny"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/image_front_shiny" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image_front_default"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_marginEnd="8dp"-->
+    <!--        android:src="@drawable/ic_launcher_background"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/image_back_shiny"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/guideline"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/image_back_default"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/image_back_shiny"-->
+    <!--        app:layout_constraintVertical_bias="1.0" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintGuide_percent="0.5" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.500684" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/pokemon_abilities"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/abilities"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/image_front_default" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/pokemon_height"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/height"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/pokemon_abilities" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/pokemon_moves"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/moves"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/pokemon_height" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/species"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/species"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/pokemon_moves" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/speed"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/stats"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/species" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/types"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/types"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/speed" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/weight"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/weight"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/types" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

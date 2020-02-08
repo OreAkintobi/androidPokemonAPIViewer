@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pokemon Game</string>
+    <string name="title">Title</string>
+    <string name="view_book">View this Pokemon</string>
+    <string name="buy_book" />
+    <string name="buy_book2">Buy this Book</string>
+    <string name="number">No.</string>
+    <string name="book_by">by ${result.artistName}</string>
+    <string name="pokemon_name">Pokemon Name</string>
+    <string name="abilities">Abilities</string>
+    <string name="height">Height</string>
+    <string name="moves">Moves</string>
+    <string name="species">Species</string>
+    <string name="stats">Stats</string>
+    <string name="type">Type</string>
+    <string name="weight">Weight</string>
+</resources>
